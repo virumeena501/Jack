@@ -2,203 +2,450 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>VIP CHANNEL WITH TEAM JACK</title>
-
-<script>
-!function(f,b,e,v,n,t,s){
-if(f.fbq)return;n=f.fbq=function(){
-n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version="2.0";
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)
-}(window,document,"script",
-"https://connect.facebook.net/en_US/fbevents.js");
-
-fbq("init","2165052384448447");
-fbq("track","PageView");
-</script>
+<meta name="description" content="VIP CHANNEL WITH TEAM JACK - Join our Telegram channel.">
 
 <style>
 *{box-sizing:border-box}
 
 body{
 margin:0;
-min-height:100vh;
-display:flex;
-justify-content:center;
-align-items:center;
-padding:18px;
-font-family:Arial,sans-serif;
-background:
-radial-gradient(circle at 50% 0%,#3b2900 0,#0a0a0a 38%,#020202 100%);
+font-family:Arial,Helvetica,sans-serif;
 color:#fff;
+background:
+radial-gradient(circle at 50% 0%,#3a2600 0%,#100d05 35%,#030303 75%);
+}
+
+.container{
+width:100%;
+max-width:520px;
+margin:auto;
+padding:16px;
 }
 
 .card{
-width:100%;
-max-width:440px;
-padding:28px 20px 22px;
-border:1px solid #574100;
+overflow:hidden;
+border:1px solid #d3a719;
 border-radius:28px;
-background:linear-gradient(180deg,#101010,#050505);
-box-shadow:0 20px 70px rgba(0,0,0,.7);
-text-align:center;
+background:linear-gradient(180deg,#11100c,#050505);
+box-shadow:0 0 50px rgba(255,190,0,.16);
 }
 
-.dp{
-width:140px;
-height:140px;
-border-radius:50%;
-object-fit:cover;
-border:4px solid #f5b900;
-box-shadow:0 0 35px rgba(245,185,0,.38);
+/* HEADER */
+
+.header{
+padding:15px 16px;
+display:flex;
+align-items:center;
+justify-content:space-between;
+border-bottom:1px solid rgba(255,205,50,.35);
 }
 
-h1{
-margin:20px 0 0;
-font-size:28px;
-line-height:1.12;
+.brand{
+display:flex;
+align-items:center;
+gap:9px;
 font-weight:900;
-}
-
-.badge{
-display:inline-block;
-margin-top:13px;
-padding:8px 16px;
-border:1px solid #f5b900;
-border-radius:30px;
-color:#ffd33d;
-font-weight:700;
-font-size:13px;
-}
-
-.sub{
-color:#bdbdbd;
-margin:13px 0 0;
 font-size:15px;
 }
 
-.panel{
-margin-top:23px;
-padding:20px;
-border:1px solid #343434;
-border-radius:20px;
-background:#0d0d0d;
-text-align:left;
+.brand span{color:#ffd329}
+
+.mini-logo{
+width:38px;
+height:38px;
+border-radius:50%;
+object-fit:cover;
+border:2px solid #e9b91b;
 }
 
-.panel h2{
-margin:0 0 12px;
+.top-btn{
+text-decoration:none;
+color:#080808;
+font-weight:900;
+font-size:12px;
+padding:10px 14px;
+border-radius:30px;
+background:linear-gradient(90deg,#ffd62e,#ffb900);
+}
+
+/* HERO */
+
+.hero{
+padding:32px 20px 25px;
+text-align:center;
+}
+
+.logo{
+width:150px;
+height:150px;
+object-fit:cover;
+border-radius:50%;
+border:4px solid #f2c526;
+box-shadow:
+0 0 22px rgba(255,198,30,.65),
+0 0 55px rgba(255,170,0,.25);
+}
+
+.small-title{
+margin-top:22px;
+color:#ffd32b;
+font-size:13px;
+font-weight:800;
+letter-spacing:2px;
+}
+
+h1{
+margin:10px 0 5px;
+font-size:32px;
+line-height:1.08;
+text-transform:uppercase;
+}
+
+h1 span{color:#ffd127}
+
+.private{
+color:#aaa;
+font-size:16px;
+margin-top:8px;
+}
+
+.join{
+display:block;
+margin:24px auto 12px;
+max-width:390px;
+padding:18px;
+border-radius:15px;
+text-decoration:none;
+text-align:center;
+color:#080808;
+font-size:17px;
+font-weight:900;
+background:linear-gradient(90deg,#ffd92e,#ffb600);
+box-shadow:0 10px 35px rgba(255,190,0,.28);
+}
+
+.join:active{
+transform:scale(.97);
+}
+
+.subscriber{
+color:#999;
+font-size:13px;
+}
+
+/* FEATURES */
+
+.features{
+margin:10px 17px 25px;
+padding:18px 6px;
+display:grid;
+grid-template-columns:repeat(3,1fr);
+border:1px solid #715817;
+border-radius:20px;
+background:#0a0a08;
+}
+
+.feature{
+text-align:center;
+padding:5px;
+border-right:1px solid #403617;
+}
+
+.feature:last-child{border-right:0}
+
+.icon{
+width:45px;
+height:45px;
+margin:auto;
+display:flex;
+align-items:center;
+justify-content:center;
+border-radius:50%;
+border:1px solid #d6a900;
 font-size:20px;
 }
 
-.panel p{
-margin:0;
-color:#c9c9c9;
-line-height:1.55;
-font-size:14px;
+.feature b{
+display:block;
+margin-top:9px;
+font-size:12px;
 }
 
-ul{
-list-style:none;
-padding:0;
-margin:14px 0 0;
+.feature small{
+display:block;
+color:#999;
+margin-top:4px;
+font-size:10px;
 }
 
-li{
-padding:8px 0;
-color:#ddd;
-font-size:14px;
+/* INFO */
+
+.info{
+padding:8px 20px 28px;
 }
 
-li:before{
-content:"✓";
-display:inline-flex;
-width:22px;
-height:22px;
+.info-title{
+font-size:24px;
+font-weight:900;
+margin-bottom:17px;
+}
+
+.info-title span{color:#ffd127}
+
+.item{
+display:flex;
+align-items:center;
+gap:13px;
+padding:14px;
+margin-bottom:10px;
+border:1px solid #493c17;
+border-radius:14px;
+background:#0b0b09;
+}
+
+.item-icon{
+min-width:42px;
+height:42px;
+display:flex;
 align-items:center;
 justify-content:center;
-margin-right:9px;
 border-radius:50%;
-background:#ffc400;
-color:#111;
-font-weight:900;
+border:1px solid #d0a400;
+font-size:19px;
 }
 
-.btn{
+.item b{font-size:14px}
+
+.item p{
+margin:4px 0 0;
+color:#999;
+font-size:12px;
+line-height:1.4;
+}
+
+/* BOTTOM */
+
+.bottom{
+margin:0 17px 22px;
+padding:20px;
+text-align:center;
+border:1px solid #a47d00;
+border-radius:20px;
+background:linear-gradient(135deg,#171207,#090806);
+}
+
+.bottom h2{
+margin:0 0 8px;
+font-size:21px;
+}
+
+.bottom p{
+color:#aaa;
+font-size:13px;
+margin-bottom:17px;
+}
+
+.bottom a{
 display:block;
-margin-top:20px;
-padding:17px 14px;
-border-radius:16px;
-background:linear-gradient(90deg,#f3b000,#ffd83d);
-color:#111;
+padding:15px;
+border-radius:14px;
+background:linear-gradient(90deg,#ffd92e,#ffb500);
+color:#050505;
 text-decoration:none;
-font-size:17px;
 font-weight:900;
-box-shadow:0 10px 30px rgba(255,193,0,.25);
 }
 
-.note{
-margin-top:13px;
-color:#777;
-font-size:10px;
-line-height:1.45;
+.footer{
+text-align:center;
+padding:0 15px 22px;
+color:#666;
+font-size:9px;
+letter-spacing:1.5px;
 }
 </style>
+
+<!-- META PIXEL -->
+<script>
+!function(f,b,e,v,n,t,s)
+{
+if(f.fbq)return;
+n=f.fbq=function(){
+n.callMethod ?
+n.callMethod.apply(n,arguments) :
+n.queue.push(arguments)
+};
+if(!f._fbq)f._fbq=n;
+n.push=n;
+n.loaded=!0;
+n.version='2.0';
+n.queue=[];
+t=b.createElement(e);
+t.async=!0;
+t.src=v;
+s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)
+}
+(window,document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+
+fbq('init','2165052384448447');
+fbq('track','PageView');
+</script>
+
 </head>
 
 <body>
 
-<main class="card">
+<div class="container">
+<div class="card">
 
-<img
-class="dp"
-src="dp.jpg"
-alt="Team Jack">
+<header class="header">
 
-<h1>VIP CHANNEL WITH TEAM JACK</h1>
+<div class="brand">
+<img src="logo.jpg" class="mini-logo" alt="Team Jack">
+JACK <span>SURESHOT</span>
+</div>
 
-<div class="badge">♛ PRIVATE CHANNEL</div>
-
-<p class="sub">
-Exclusive updates &amp; member-only content
-</p>
-
-<section class="panel">
-
-<h2>🔥 VIP ACCESS</h2>
-
-<p>
-Join the private channel to receive the latest updates
-and member-only posts.
-</p>
-
-<ul>
-<li>Private channel access</li>
-<li>Regular updates</li>
-<li>Member-only posts</li>
-</ul>
-
-<a
-class="btn"
+<a class="top-btn"
 href="https://t.me/+_6O5SE00xrkxMjY1"
 target="_blank"
-rel="noopener"
-onclick="fbq('track','Lead');">
+rel="noopener">
+✈ JOIN
+</a>
 
-JOIN PRIVATE CHANNEL →
+</header>
 
+<section class="hero">
+
+<img src="logo.jpg"
+class="logo"
+alt="Vip channel with team jack">
+
+<div class="small-title">
+WELCOME TO PRIVATE CHANNEL
+</div>
+
+<h1>
+VIP CHANNEL<br>
+<span>WITH TEAM JACK</span>
+</h1>
+
+<div class="private">
+Private Telegram Channel
+</div>
+
+<a id="joinBtn"
+class="join"
+href="https://t.me/+_6O5SE00xrkxMjY1"
+target="_blank"
+rel="noopener noreferrer">
+✈ JOIN CHANNEL ON TELEGRAM →
+</a>
+
+<div class="subscriber">
+✦ Join the private Telegram channel
+</div>
+
+</section>
+
+<div class="features">
+
+<div class="feature">
+<div class="icon">📢</div>
+<b>UPDATES</b>
+<small>Latest Posts</small>
+</div>
+
+<div class="feature">
+<div class="icon">⚡</div>
+<b>FAST</b>
+<small>Quick Updates</small>
+</div>
+
+<div class="feature">
+<div class="icon">🔒</div>
+<b>PRIVATE</b>
+<small>Channel Access</small>
+</div>
+
+</div>
+
+<section class="info">
+
+<div class="info-title">
+WHY <span>JOIN US?</span>
+</div>
+
+<div class="item">
+<div class="item-icon">📢</div>
+<div>
+<b>Latest Channel Updates</b>
+<p>Stay connected with the latest channel posts and updates.</p>
+</div>
+</div>
+
+<div class="item">
+<div class="item-icon">⚡</div>
+<div>
+<b>Instant Updates</b>
+<p>Receive new channel posts directly on Telegram.</p>
+</div>
+</div>
+
+<div class="item">
+<div class="item-icon">🔐</div>
+<div>
+<b>Private Channel</b>
+<p>Access the private Telegram channel through the button below.</p>
+</div>
+</div>
+
+</section>
+
+<section class="bottom">
+
+<h2>DON'T MISS OUT!</h2>
+
+<p>
+Join the private Telegram channel and stay connected.
+</p>
+
+<a id="joinBtn2"
+href="https://t.me/+_6O5SE00xrkxMjY1"
+target="_blank"
+rel="noopener noreferrer">
+✈ JOIN NOW ON TELEGRAM →
 </a>
 
 </section>
 
-<div class="note">
-By continuing, you agree to Telegram's terms and applicable rules.
+<div class="footer">
+JACK SURESHOT • PRIVATE CHANNEL • TELEGRAM
 </div>
 
-</main>
+</div>
+</div>
+
+<script>
+
+document.getElementById("joinBtn")
+.addEventListener("click",function(){
+if(typeof fbq==="function"){
+fbq("track","Lead");
+}
+});
+
+document.getElementById("joinBtn2")
+.addEventListener("click",function(){
+if(typeof fbq==="function"){
+fbq("track","Lead");
+}
+});
+
+</script>
 
 </body>
 </html>
